@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { zokou } = require(__dirname + "/../framework/tiger");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
       *DADMARK 𝐈𝐍𝐅𝐎* 
 ❒───────────────────❒
 *𝐆𝐈𝐓𝐇𝐔𝐁*
-> https://github.com/ENZOK254/Dadmark-Md
+> https://github.com/DADMARK254/Dadmark-Md
 
 *SUPPORT CHANNEL*
 > https://whatsapp.com/channel/0029VajJTJp2f3ELCm8FN50D
@@ -45,7 +45,7 @@ const date = moment().format('DD/MM/YYYY');
 ╭───────────────────❒
 │😂 *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❣️ *DEV1* : *DADMARK*
-│⚽ *DEV2* : *ENZO*
+│⚽ *DEV2* : *TIGER*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
