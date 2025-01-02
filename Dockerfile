@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Luffy2ndAccount/Zokou-english-v  /root/Zokou_BOt
+RUN git clone https://github.com/Luffy2ndAccount/Dadmark-english-v  /root/Dadmark_BOt
 WORKDIR /root/Zokou_Bot/
 
 
